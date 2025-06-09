@@ -3,6 +3,7 @@ footer{
     background-color: #171123;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: 0 100px #171123;
 }
 
 .footer_right{
