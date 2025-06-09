@@ -1,4 +1,65 @@
 
+/* Progressbars */
+.progress{
+  height: 40px; 
+  background: #171123;
+  border-radius: 10px;
+}
+
+.progresslength{
+    padding: 0 5rem 0 0;
+}
+
+.progress span{
+ display: block;
+  height: 100%;
+  background-color: #FFE548;
+  border-radius: 9px;
+}
+
+.html{
+    width: 80%;
+    animation: fillhtml 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillhtml {
+from {width: 0;}
+to{width: 80%;}
+}
+
+.java{
+    width: 50%;
+    animation: filljava 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes filljava {
+from {width: 0;}
+to{width: 50%;}
+}
+
+.css{
+    width: 75%;
+    animation: fillcss 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillcss {
+from {width: 0;}
+to{width: 75%;}
+}
+
+.learning{
+    width: 100%;
+    animation: filllearning 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes filllearning {
+from {width: 0;}
+to{width: 100%;}
+}
 
 @media(min-width: 800px ){
  main{
@@ -9,6 +70,7 @@
  .grid-1_1{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem;
  }
 
  body h1{
@@ -16,7 +78,6 @@
 }
 
 .lottie{
-    border-radius: 40%;
     height: 540px;
     width: 540px;
 }
@@ -33,7 +94,6 @@ main{
 }
 
 .lottie{
-    border-radius: 40%;
     height: 300px;
     width: 300px;
 }
