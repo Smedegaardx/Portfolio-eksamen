@@ -1,0 +1,41 @@
+
+
+@media(min-width: 800px ){
+ main{
+    max-width: 1212px;
+    margin: 6rem auto;
+ }
+
+ .grid-1_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ body h1{
+    font-size: 52px;
+}
+
+.lottie{
+    border-radius: 40%;
+    height: 540px;
+    width: 540px;
+}
+
+}
+
+@media(max-width: 800px ){
+     main h1{
+    font-size: 32px;
+}
+
+main{
+    margin-top: 7rem;
+}
+
+.lottie{
+    border-radius: 40%;
+    height: 300px;
+    width: 300px;
+}
+
+}
