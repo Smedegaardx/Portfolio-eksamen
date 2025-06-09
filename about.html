@@ -22,17 +22,19 @@
     <main>
       <h1>Om mig</h1>
       <div class="grid-1_1">
-        <dotlottie-player src="https://lottie.host/f179445b-6085-49bd-8516-e387d056ebc6/t3RmsLxhCj.lottie" background="transparent" speed="1" autoplay class="lottie"></dotlottie-player>
-        <div>
+        <div class="mobilecenter">
+          <dotlottie-player src="https://lottie.host/f179445b-6085-49bd-8516-e387d056ebc6/t3RmsLxhCj.lottie" background="transparent" speed="1" autoplay class="lottie"></dotlottie-player>
+        </div>
+        <div class="migtext">
           <h2>Hvem er jeg?</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsa nemo distinctio beatae recusandae perspiciatis aut numquam voluptates quibusdam sunt quo magni reprehenderit rerum cupiditate.</p>
         </div>
       </div>
-      <div>
-        <h2>Færdigheder</h2>
+      <div class="skills">
+        <h2 class="center">Færdigheder</h2>
         <div class="grid-1_1">
           <div>
-            <h3>HTML</h3>
+            <h3 class="baroverskrift">HTML</h3>
             <div class="progresslength">
             <div class="progress">
               <span class="html"></span>
@@ -40,7 +42,7 @@
             </div>
           </div>
           <div>
-            <h3>CSS</h3>
+            <h3 class="baroverskrift">CSS</h3>
             <div class="progresslength">
             <div class="progress">
               <span class="css"></span>
@@ -48,7 +50,7 @@
             </div>
           </div>
             <div>
-            <h3>JavaScript</h3>
+            <h3 class="baroverskrift">JavaScript</h3>
             <div class="progresslength">
             <div class="progress">
               <span class="java"></span>
@@ -56,7 +58,7 @@
             </div>
           </div>
           <div>
-            <h3>Villighed til at lære mere</h3>
+            <h3 class="baroverskrift">Villighed til at lære mere</h3>
             <div class="progresslength">
            <div class="progress">
               <span class="learning"></span>
@@ -66,16 +68,34 @@
         </div>
       </div>
       <div class="grid-1_1">
-        <div>
+        <div class="fritidtext">
           <h2>Og hvad med i fritiden?</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsa nemo distinctio beatae recusandae perspiciatis aut numquam voluptates quibusdam sunt quo magni reprehenderit rerum cupiditate.</p>
         </div>
-        <div class="slideshow">
-          <img />
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="https://picsum.photos/200/300" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="https://picsum.photos/202/300" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="https://picsum.photos/201/300" style="width:100%">
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
       </div>
     </main>
       <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+      <script src="js/slide.js"></script>
     <footer>
       <div class="footer_left">
         <a href="index.html">Projekter</a>
