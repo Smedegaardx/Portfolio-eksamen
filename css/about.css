@@ -17,6 +17,10 @@ h1{
     margin: 2rem 0;
 }
 
+h2{
+    margin-bottom: 1rem;
+}
+
 /* Progressbars */
 .progress{
   height: 40px; 
@@ -116,7 +120,7 @@ to{width: 100%;}
         }
 
         /* On hover, add a black background color with a little bit see-through */
-        .prev:hover, .next:hover {
+        .prev:hover, .next:hover{
         background-color: #171123;
         }
 
@@ -134,7 +138,7 @@ to{width: 100%;}
 @media(min-width: 800px ){
  main{
     max-width: 1212px;
-    margin: 6rem auto;
+    margin: 6rem auto 3rem;
  }
 
  .grid-1_1{
@@ -150,6 +154,22 @@ to{width: 100%;}
 .lottie{
     height: 540px;
     width: 540px;
+}
+
+.fritidtext{
+    margin-left: 2rem;
+}
+
+.fritid{
+    margin-top: 5rem;
+}
+
+.mySlides, .slideshow-container{
+    width: 350px;
+}
+
+.slideshow-container{
+    margin: 2rem auto 0;
 }
 
 }
@@ -175,12 +195,22 @@ main{
 
 .migtext{
     margin: 3rem 1rem 0 1rem;
-   text-align: center;
+}
+
+.migtext h2{
+    text-align: center;
 }
 
 .fritidtext{
     margin: 3rem 1rem 2rem 1rem;
-   text-align: center;
+}
+
+.fritidtext h2{
+    text-align: center;
+}
+
+.slideshow-container{
+    margin: 2rem;
 }
 
 }
