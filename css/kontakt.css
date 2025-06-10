@@ -12,6 +12,8 @@ label{
     display: none;
 }
 
+
+
 .infotekst{
     display: flex;
     flex-direction: column;
@@ -56,6 +58,10 @@ form{
 input{
     height: 30px;
     width: 300px;
+}
+
+textarea::placeholder, input::placeholder{
+    color: #171123;
 }
 
 textarea{
