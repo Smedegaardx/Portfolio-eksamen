@@ -33,7 +33,6 @@ body h1, body h2{
 
 .card div img{
     max-width: 100%;
-    max-width: auto;
     display: block;
     margin: auto;
     border-radius: 5%;
