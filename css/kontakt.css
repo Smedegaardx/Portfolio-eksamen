@@ -1,7 +1,82 @@
+h1{
+    text-align: center;
+    margin: 2rem 0 1.5rem;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 30px;
+}
+
 label{
     display: none;
 }
 
+.infotekst{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color:  #5B85AA;
+    border-radius: 25px;
+    padding: 2rem;
+    color: #F2EFE9;
+}
+
+.socials{
+    margin-top: 10px;
+    fill: #F2EFE9;
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+}
+
+.socials svg{
+height: 180%;
+}
+
+.kontakttekst{
+    background-color:  #904E55;
+    padding: 2rem;
+    border-radius: 25px;
+    color: #F2EFE9;
+}
+
+form{
+    margin-top: 1rem;
+}
+
+.fieldset{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+}
+
+textarea{
+    height: 150px;
+    width: 300px;
+}
+
+.submit{
+    background-color: #171123;
+    color: #F2EFE9;
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.submit:focus{
+    background-color: #433E4D;
+}
 
 @media(min-width: 800px ){
     main{
@@ -12,9 +87,20 @@ label{
     .grid-1_1{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     }
 }
 
 @media(max-width: 800px ){
+    main{
+    margin: 6rem auto;
+    }
 
+    .infotekst{
+        margin: 2rem 1rem;
+    }
+
+    .kontakttekst{
+    margin: 2rem 1rem;
+}
 }

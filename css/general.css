@@ -29,7 +29,7 @@ h1{
     font-family: Hero;
 }
 
-h2, h3, p, a, legend, input{
+h2, h3, p, a, legend, input, li, textarea{
     font-family: tekst;
 }
 
