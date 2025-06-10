@@ -188,6 +188,50 @@ from {width: 0;}
 to{width: 100%;}
 }
 
+.illustrator{
+    width: 45%;
+    animation: fillillustrator 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillillustrator {
+from {width: 0;}
+to{width: 45%;}
+}
+
+.ae{
+    width: 60%;
+    animation: fillae 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillae {
+from {width: 0;}
+to{width: 60%;}
+}
+
+.ps{
+    width: 35%;
+    animation: fillps 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillps {
+from {width: 0;}
+to{width: 35%;}
+}
+
+.figma{
+    width: 75%;
+    animation: fillfigma 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillfigma {
+from {width: 0;}
+to{width: 75%;}
+}
+
 }
 
 @media(max-width: 800px ){
@@ -280,6 +324,50 @@ to{width: 75%;}
 @keyframes filllearning {
 from {width: 0;}
 to{width: 100%;}
+}
+
+.illustrator{
+    width: 45%;
+    animation: fillillustrator 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillillustrator {
+from {width: 0;}
+to{width: 45%;}
+}
+
+.ae{
+    width: 60%;
+    animation: fillae 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillae {
+from {width: 0;}
+to{width: 60%;}
+}
+
+.ps{
+    width: 35%;
+    animation: fillps 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillps {
+from {width: 0;}
+to{width: 35%;}
+}
+
+.figma{
+    width: 75%;
+    animation: fillfigma 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillfigma {
+from {width: 0;}
+to{width: 75%;}
 }
 
 }
