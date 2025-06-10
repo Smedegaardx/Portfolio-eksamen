@@ -21,6 +21,11 @@ h2{
     margin-bottom: 1rem;
 }
 
+span{
+    color: #FFB20F;
+}
+
+
 /* Progressbars */
 .progress{
   height: 40px; 
@@ -39,49 +44,6 @@ h2{
   border-radius: 9px;
 }
 
-.html{
-    width: 80%;
-    animation: fillhtml 2s ease 4s;
-    animation-fill-mode: backwards;
-}
-
-@keyframes fillhtml {
-from {width: 0;}
-to{width: 80%;}
-}
-
-.java{
-    width: 50%;
-    animation: filljava 2s ease 4s;
-    animation-fill-mode: backwards;
-}
-
-@keyframes filljava {
-from {width: 0;}
-to{width: 50%;}
-}
-
-.css{
-    width: 75%;
-    animation: fillcss 2s ease 4s;
-    animation-fill-mode: backwards;
-}
-
-@keyframes fillcss {
-from {width: 0;}
-to{width: 75%;}
-}
-
-.learning{
-    width: 100%;
-    animation: filllearning 2s ease 4s;
-    animation-fill-mode: backwards;
-}
-
-@keyframes filllearning {
-from {width: 0;}
-to{width: 100%;}
-}
 
         /* slideshow med hjælp fra https://www.w3schools.com/howto/howto_js_slideshow.asp*/
         * {box-sizing:border-box}
@@ -158,6 +120,7 @@ to{width: 100%;}
 
 .fritidtext{
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 .fritid{
@@ -172,6 +135,59 @@ to{width: 100%;}
     margin: 2rem auto 0;
 }
 
+.migtext, .fritidtext{
+    padding: 0 6rem 0 0;
+}
+
+.migtext p, .fritidtext p{
+    margin-top: 2rem;
+}
+
+
+.html{
+    width: 80%;
+    animation: fillhtml 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillhtml {
+from {width: 0;}
+to{width: 80%;}
+}
+
+.java{
+    width: 50%;
+    animation: filljava 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes filljava {
+from {width: 0;}
+to{width: 50%;}
+}
+
+.css{
+    width: 75%;
+    animation: fillcss 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillcss {
+from {width: 0;}
+to{width: 75%;}
+}
+
+.learning{
+    width: 100%;
+    animation: filllearning 2s ease 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes filllearning {
+from {width: 0;}
+to{width: 100%;}
+}
+
 }
 
 @media(max-width: 800px ){
@@ -184,8 +200,8 @@ main{
 }
 
 .lottie{
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
 }
 
 .mobilecenter{
@@ -211,6 +227,59 @@ main{
 
 .slideshow-container{
     margin: 2rem;
+}
+
+.migtext, .fritidtext{
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+.migtext p, .fritidtext p{
+    margin-top: 2rem;
+}
+
+
+.html{
+    width: 80%;
+    animation: fillhtml 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillhtml {
+from {width: 0;}
+to{width: 80%;}
+}
+
+.java{
+    width: 50%;
+    animation: filljava 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes filljava {
+from {width: 0;}
+to{width: 50%;}
+}
+
+.css{
+    width: 75%;
+    animation: fillcss 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fillcss {
+from {width: 0;}
+to{width: 75%;}
+}
+
+.learning{
+    width: 100%;
+    animation: filllearning 2s ease 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes filllearning {
+from {width: 0;}
+to{width: 100%;}
 }
 
 }
