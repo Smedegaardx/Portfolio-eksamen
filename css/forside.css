@@ -86,6 +86,7 @@ body h1, body h2{
     top: 150px;
     padding: 3rem;
     border-color: #F2EFE9;
+    border-radius: 25px;
     border-style: solid;
 }
 
@@ -135,6 +136,7 @@ main{
     top: 100px;
     padding: 1.5rem;
     border-color: #F2EFE9;
+     border-radius: 25px;
     border-style: solid;
 }
 
